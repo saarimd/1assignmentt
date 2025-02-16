@@ -10,5 +10,6 @@ public class Main {
         Tom tom = context.getBean(Tom.class);
 
         System.out.println(tom.chasingJerry());
+        System.out.println(tom.catchJerry());
     }
 }
