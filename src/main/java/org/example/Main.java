@@ -8,8 +8,7 @@ public class Main {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
         Tom tom = context.getBean(Tom.class);
-        Jerry jerry = context.getBean(Jerry.class);
 
-        System.out.println(tom.getName() + " is chasing " + jerry.getName());
+        System.out.println(tom.chasingJerry());
     }
 }
